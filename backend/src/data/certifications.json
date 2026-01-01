@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Full-Stack Web Development",
+    "issuer": "Coursera",
+    "date": "2024-06-01",
+    "credentialId": "COUR-DEV-2024"
+  },
+  {
+    "id": 2,
+    "title": "Applied Machine Learning",
+    "issuer": "Google",
+    "date": "2024-09-15",
+    "credentialId": "GOOG-AML-2024"
+  },
+  {
+    "id": 3,
+    "title": "Full Stack Web Development",
+    "issuer": "Some Online Platform",
+    "date": "2023-01-01",
+    "credentialId": "ABC123XYZ"
+  }
+]
