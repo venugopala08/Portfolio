@@ -50,3 +50,14 @@ export async function postChat(payload: {
     body: JSON.stringify(payload),
   });
 }
+
+export async function getPortfolio(): Promise<{ status: string; data: any }> {
+  return request<{ status: string; data: any }>('/api/portfolio');
+}
+
+export async function savePortfolio(data: object): Promise<{ status: string; data: any }> {
+  return request<{ status: string; data: any }>('/api/portfolio', {
+    method: 'PUT',
+    body: JSON.stringify({ data }),
+  });
+}

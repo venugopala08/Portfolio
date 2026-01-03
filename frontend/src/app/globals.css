@@ -18,12 +18,10 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: 
+    radial-gradient(circle at 50% 0%, rgba(var(--background-start-rgb), 0.15), transparent 70%),
+    linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  background-attachment: fixed;
 }
 
 @layer utilities {
@@ -36,10 +34,18 @@ body {
   }
   
   .section-padding {
-    @apply px-4 py-16 sm:px-6 lg:px-8;
+    @apply px-4 py-20 sm:px-6 lg:px-8;
   }
   
   .container-padding {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .glass-card {
+    @apply bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm border border-gray-200 dark:border-gray-700;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-blue-600 dark:from-blue-400 dark:to-accent;
   }
 }

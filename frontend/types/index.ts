@@ -5,6 +5,7 @@ export type Project = {
   techStack: string[];
   githubUrl: string;
   liveUrl: string;
+  imageUrl?: string;
 };
 
 export type Certification = {

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
+// Force rebuild
 import type { ReactNode } from 'react';
 
 import ChatBubble from '@/components/Chatbot/ChatBubble';

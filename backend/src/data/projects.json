@@ -1,26 +1,29 @@
 [
   {
-    "id": 1,
-    "title": "Interactive Portfolio with AI Persona Chatbot",
-    "description": "A production-ready portfolio built with Next.js and an Express backend, featuring an AI persona chatbot with context-aware responses and chat history.",
-    "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Express.js", "OpenAI"],
-    "githubUrl": "https://github.com/yourusername/interactive-portfolio",
-    "liveUrl": "https://your-portfolio.vercel.app"
+    "id": 4,
+    "title": "Vriksha Rakshak",
+    "description": "A machine learning-based application that helps identify plant diseases and suggest remedies. It uses Convolutional Neural Networks (CNN) for image-based disease prediction and provides treatment suggestions.",
+    "techStack": ["React", "Python", "Machine Learning (CNN)", "Node.js"],
+    "githubUrl": "https://github.com/venugopala08/VrikshaRakshak.git",
+    "liveUrl": "https://vriksharakshak-25.vercel.app/",
+    "imageUrl": "/images/vriksha-rakshak.png"
   },
   {
-    "id": 2,
-    "title": "Resume Matcher & Career Assistant",
-    "description": "An AI-assisted tool that compares a resume with job descriptions, highlights gaps, and suggests improvements with actionable guidance.",
-    "techStack": ["Node.js", "Express.js", "React", "LLM API", "PostgreSQL"],
-    "githubUrl": "https://github.com/yourusername/resume-matcher",
-    "liveUrl": "https://resume-matcher.example.com"
+    "id": 5,
+    "title": "ProMed: Medicine Information Management System",
+    "description": "A healthcare-focused web application for managing medicine data using QR codes. It supports multi-user accounts and sends automated email alerts for expiring medicines.",
+    "techStack": ["Python", "Flask", "MySQL", "Jinja2", "Bootstrap"],
+    "githubUrl": "https://github.com/venugopala08/Medicine.git",
+    "liveUrl": "https://promed.pythonanywhere.com/",
+    "imageUrl": "/images/promed.png"
   },
   {
-    "id": 3,
-    "title": "AI-Powered Chat Application",
-    "description": "A real-time chat application with AI-powered responses and sentiment analysis.",
-    "techStack": ["React", "Node.js", "WebSocket", "TensorFlow.js"],
-    "githubUrl": "https://github.com/yourusername/chat-app",
-    "liveUrl": "https://chat-app-demo.com"
+    "id": 6,
+    "title": "HelpNow AI: Real-Time Emergency Guidance",
+    "description": "A life-saving AI-powered web application that provides instant, step-by-step medical emergency guidance. Supports voice-based descriptions, text-to-speech instructions, and AI-generated visual aids.",
+    "techStack": ["Next.js", "TypeScript", "React", "Tailwind CSS"],
+    "githubUrl": "https://github.com/venugopala08/help_now_ai.git",
+    "liveUrl": "https://helpnow-ai.vercel.app/",
+    "imageUrl": "/images/helpnowai.png"
   }
 ]

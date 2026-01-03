@@ -15,13 +15,12 @@ async function readJson(filePath) {
 export async function getAllProjects(req, res, next) {
   try {
     const preferredPath = path.join(__dirname, '../data/projects.json');
-    const legacyPath = path.join(__dirname, '../data/project.json');
 
     let projects;
     try {
       projects = await readJson(preferredPath);
     } catch {
-      projects = await readJson(legacyPath);
+      projects = [];
     }
 
     if (!Array.isArray(projects)) {

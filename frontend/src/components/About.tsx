@@ -4,9 +4,23 @@ import { motion } from 'framer-motion';
 
 export default function About() {
   const skills = [
-    'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js',
-    'Python', 'TensorFlow', 'PyTorch', 'Machine Learning', 'Deep Learning',
-    'SQL', 'MongoDB', 'Docker', 'AWS', 'Git'
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Next.js',
+    'Node.js',
+    'Express.js',
+    'Python',
+    'Data Science',
+    'Machine Learning',
+    'REST APIs',
+    'Git',
+    'Postman',
+    'Tailwind CSS',
+    'Java',
+    'MySQL',
+    'MongoDB',
+    'AWS'
   ];
 
   return (
@@ -27,12 +41,17 @@ export default function About() {
             <div>
               <h3 className="text-2xl font-semibold mb-4">Who I Am</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                I'm a passionate Full-Stack and AI Developer with a strong foundation in both frontend and backend technologies. 
-                I love building intelligent applications that solve real-world problems and provide exceptional user experiences.
+                I'm a passionate developer with a strong interest in full-stack
+                development, software engineering, and data science. I enjoy
+                building complete web applications that combine clean user
+                interfaces with structured backend logic.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                My journey in software development started with a curiosity about how things work, which led me to pursue 
-                a career in technology. I'm constantly learning and staying up-to-date with the latest industry trends.
+                My journey in technology began with core programming concepts
+                and web development fundamentals, and gradually expanded into
+                backend development, API design, and data-driven applications.
+                I focus on writing readable, maintainable code and understanding
+                how real-world systems work end to end.
               </p>
               <div className="flex flex-wrap gap-2 mt-6">
                 {skills.map((skill, index) => (
@@ -51,24 +70,35 @@ export default function About() {
                 <h3 className="text-xl font-semibold mb-3">Education</h3>
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-medium">Degree in Computer Science</h4>
-                    <p className="text-gray-500 dark:text-gray-400">University Name, Year - Year</p>
-                  </div>
-                  <div>
-                    <h4 className="font-medium">AI & Machine Learning Specialization</h4>
-                    <p className="text-gray-500 dark:text-gray-400">Institution, Year</p>
+                    <h4 className="font-medium">
+                      Bachelor’s Degree in Computer Science / Data Science
+                    </h4>
+                    <p className="text-gray-500 dark:text-gray-400">
+                      Sahyadri College of Engineering & Management , Mangaluru, 2022 – 2026 
+                    </p>
                   </div>
                 </div>
               </div>
               
               <div>
-                <h3 className="text-xl font-semibold mb-3">Experience</h3>
+                <h3 className="text-xl font-semibold mb-3">Interests</h3>
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-medium">Senior Full-Stack Developer</h4>
-                    <p className="text-gray-500 dark:text-gray-400">Company Name, Year - Present</p>
+                    <h4 className="font-medium">
+                      Full-Stack & Software Development
+                    </h4>
                     <p className="text-gray-600 dark:text-gray-300 text-sm mt-1">
-                      Led the development of web applications using modern technologies and mentored junior developers.
+                      Building scalable web applications with clean architecture
+                      and well-designed APIs.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 className="font-medium">
+                      Data Science & Applied Machine Learning
+                    </h4>
+                    <p className="text-gray-600 dark:text-gray-300 text-sm mt-1">
+                      Exploring how data-driven insights and machine learning
+                      concepts can be applied to real-world problems.
                     </p>
                   </div>
                 </div>

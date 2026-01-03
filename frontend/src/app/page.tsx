@@ -3,7 +3,9 @@ import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
+import Certifications from '@/components/Certifications';
 import VideoIntro from '@/components/VideoIntro';
+import Contact from '@/components/Contact';
 
 export const metadata: Metadata = {
   title: 'Home | Interactive Portfolio',
@@ -17,7 +19,9 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Certifications />
       <VideoIntro />
+      <Contact />
     </div>
   );
 }
