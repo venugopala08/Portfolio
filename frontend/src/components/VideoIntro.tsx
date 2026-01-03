@@ -26,7 +26,7 @@ export default function VideoIntro() {
           
           <div className="relative glass-card p-2 rounded-2xl shadow-2xl">
             <a 
-              href="https://drive.google.com/file/d/1Y_mP8WT9CYyi4jDvQO2wITGSPbeAvrrN/view"
+              href="https://drive.google.com/file/d/1wvkI--8u1Zt7s483Vwa8d5vThJ2wSWgY/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="block relative cursor-pointer group rounded-xl overflow-hidden"
