@@ -11,7 +11,12 @@ const app = express();
 
 // Enable CORS
 const corsOrigin = process.env.CORS_ORIGIN || 'http://localhost:3000';
-const allowedOrigins = [corsOrigin, 'http://localhost:3000', 'https://protfolio-venu.vercel.app'];
+const allowedOrigins = [
+  corsOrigin, 
+  'http://localhost:3000', 
+  'https://portfolio-venu08.vercel.app/',
+  'https://venugopala08.vercel.app' // Added your new Vercel domain here
+];
 
 app.use(
   cors({
